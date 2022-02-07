@@ -1,12 +1,12 @@
 <h1>Seja bem vindo</h1>
-<p>O idioma utilizado nesta aplicação é: <%= locale(I18n.locale) %></p>
+<p>O idioma utilizado nesta aplicação é: <%= locale %></p>
 <p>Pagina de bem vindos do Gabriel</p>
-    
+<p><%= I18n.t("hello")%></p>
     
 <p> A soma é <%= 1 + 1%></p>
 <% a = "Muito legal o Ruby" %>
 <p>Imprimindo a variavel a: <%= a %></p>
-<p>Hoje é <%= Date.today%></p>
+<p>Hoje é <%= l(Date.today)%></p>
 
 <%= render "menu"%>
 
