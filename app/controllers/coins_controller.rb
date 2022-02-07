@@ -1,7 +1,8 @@
 class CoinsController < ApplicationController
   
   layout "adm"
-  before_action :set_coin, only: %i[ show edit update destroy ]
+  before_action :set_coin, only: [:show, :edit, :update, :destroy ]
+  before_action :set_mining_type_options, only [:new, :create, :edit, :update]
 
   # GET /coins or /coins.json
   def index
@@ -69,4 +70,9 @@ class CoinsController < ApplicationController
     def coin_params
       params.require(:coin).permit(:description, :acronym, :url_image, :mining_type_id)
     end
+    
+    def set_mining_type_options
+      @mining_type_options = MiningType.all.pluck(:description :id) 
+    end
+    
 end
