@@ -35,8 +35,10 @@ en:
   messages:
     welcome: "This is a crypto wallet"
     menu: "To start, select a option"
+    config: "are you sure?"
   hello: "Hello world"
   links: 
     edit: "Edit"
     show: "Show"
     delte: "Delete"
+    new: "New"

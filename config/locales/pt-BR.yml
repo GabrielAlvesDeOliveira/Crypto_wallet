@@ -4,8 +4,10 @@ pt-BR:
   messages:
     welcome_msg: "Este é o crypto wallet, um app para você cadastrar e acompanhar as suas crypto moedas"
     menu_msg: "Para começar selecione uma das opções abaixo"
+    confirm: "Tem certeza?"
   hello: "Olá mundo"
   links: 
     edit: "Editar"
     show: "Mostrar"
     delte: "Deletar"
+    new: "Novo"
