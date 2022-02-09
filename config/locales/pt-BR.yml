@@ -11,3 +11,13 @@ pt-BR:
     show: "Mostrar"
     delte: "Deletar"
     new: "Novo"
+    back: "Voltar"
+  new:
+    coin: "Nova moeda"
+    mining_type: "Novo tipo de mineração"
+  editing:
+    coin: "Editando Moeda"
+    mining_type: "Editando Tipo de mineração"
+  showing:
+    coin: "mostrar Moeda"
+    mining_type: "Mostrando Tipo de mineração"
